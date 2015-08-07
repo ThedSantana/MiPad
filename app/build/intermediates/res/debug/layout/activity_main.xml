@@ -1,0 +1,81 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mipad.MainActivity"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    android:id="@+id/flActivityMain"
+    android:layout_height="fill_parent">
+    
+    
+    	<!--  LIST VIEW -->      
+	    <com.miproducts.mipad.DragDropSwipeButtonRemoveListView
+	            android:id="@+id/lvMain"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:dividerHeight="8dp"
+	            android:paddingTop="60dp"
+	            android:divider="@android:color/transparent"
+	            android:clipToPadding="false"
+	            />
+	
+   
+    
+    <!--  START of CONTROL BAR, allows us to add more notes. -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:background="#455a64"
+    android:orientation="horizontal"
+    android:layout_height="60dp" 
+	android:alpha=".75"
+>
+
+    <Button
+        android:id="@+id/bAddNote"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+		android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_add_note" />
+	
+ 	<ImageButton
+	    android:id="@+id/ibMenu"
+	    android:layout_gravity="left|center_vertical"
+	    android:layout_marginRight="60dp"
+	    android:layout_width="40dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_height="40dp"
+	    android:background="@drawable/ic_menu" />
+    <TextView
+        android:id="@+id/tvListViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="left|top"
+		android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="MiPad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvNoteCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="testing"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+
+</FrameLayout>
+      <!--  END of CONTROL BAR -->
+      
+      
+	
+</FrameLayout>
+
+<!-- From: file:/C:/Users/larry.TABOFFICE/Documents/GitHub/MiPad/app/src/main/res/layout/activity_main.xml -->

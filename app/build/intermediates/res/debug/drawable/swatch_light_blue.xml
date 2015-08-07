@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:state_selected="true" android:drawable="@drawable/light_blue_fill_swatch"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/light_blue_fill_swatch"></item>
+    <item android:drawable="@drawable/light_blue_swatch"></item>
+</selector>
+<!-- From: file:/C:/Users/larry.TABOFFICE/Documents/GitHub/MiPad/app/src/main/res/drawable/swatch_light_blue.xml -->
