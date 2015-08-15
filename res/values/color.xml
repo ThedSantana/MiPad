@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_blue" >#2155ab</color>
+    <color name="button_red">#f00</color>
+    <color name="white">#fff</color>
+    <color name="select_blue_view">#455a64</color>
+    <color name="pressed_blue_view">#46768c</color>
+    <color name="unpressed_view">#ddd</color>
+    
+    <!-- Swatchs -->
+    <!-- 0 -->
+    <color name="grey_swatch">#ddd</color>
+    <!-- 1 -->
+    <color name="orange_swatch">#ff9700</color>    
+    <!-- 2 -->
+    <color name="red_swatch">#ff6d3f</color>  
+    
+    
+    <!-- 3 -->
+    <color name="white_swatch">#e0e0e0</color>
+    <!-- 4 -->
+    <color name="dark_grey_swatch">#b8c4c9</color>
+    <!-- 5 HERE                   -->
+    <color name="light_blue_swatch">#3fc3ff</color>
+    <!-- 6 -->
+    <color name="light_green_swatch">#1ce8b5</color>
+    <!-- 7 -->
+    <color name="green_swatch">#8ac249</color>
+    <!-- 8 -->
+    <color name="yellow_swatch">#ffe900</color>
+</resources>

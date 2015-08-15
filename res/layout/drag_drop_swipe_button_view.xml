@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:minHeight="30dp"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"   	 
+      android:id="@+id/text_view_for_listview"
+      android:orientation="horizontal"
+      >
+
+<!--       android:background="@drawable/drag_drop_list_view_view" -->
+    
+<LinearLayout 
+    android:minHeight="30dp"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:orientation="vertical"
+    >
+    
+
+
+   
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textAppearance="?android:attr/textAppearanceListItemSmall"
+   	android:textColor="#000"
+   	android:textSize="15dp"
+   	android:lineSpacingExtra="4dp"
+   	android:maxLines="4"
+   	android:id="@+id/tvNoteBody"
+   	android:singleLine="false"
+   	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+    />
+	          
+
+</LinearLayout>
+
+</LinearLayout>

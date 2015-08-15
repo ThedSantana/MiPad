@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+	<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/ibRedSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/swatch_red" />
+
+    <ImageButton
+        android:id="@+id/ibGreySwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ibRedSwatch"
+        android:background="@drawable/swatch_grey" />
+
+    <ImageButton
+        android:id="@+id/ibOrangeSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ibGreySwatch"
+        android:background="@drawable/swatch_orange" />
+
+    <ImageButton
+        android:id="@+id/ibWhiteSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ibOrangeSwatch"
+        android:background="@drawable/swatch_whtite" />
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">  
+    <ImageButton
+        android:id="@+id/ibDarkGrey"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/swatch_dark_grey" />
+
+    <ImageButton
+        android:id="@+id/ibLightBlueSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ibDarkGrey"
+        android:background="@drawable/swatch_light_blue" />
+
+  
+    <ImageButton
+        android:id="@+id/ibLightGreenSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ibLightBlueSwatch"
+        android:background="@drawable/swatch_light_green" />
+
+    <ImageButton
+        android:id="@+id/ibYellowSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ibLightGreenSwatch"
+        android:background="@drawable/swatch_yellow" />
+
+    <ImageButton
+        android:id="@+id/ibGreenSwatch"
+        android:layout_width="@dimen/swatch_sizes"
+        android:layout_height="@dimen/swatch_sizes"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/ibYellowSwatch"
+        android:background="@drawable/swatch_green" />
+
+</LinearLayout>
+</LinearLayout>    

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlNoteContainer"
+    android:orientation="vertical">
+
+    <!-- START of CONTROL BAR, allows us to add more notes. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ddd"
+        android:id="@+id/rlControlPanel"
+        android:orientation="horizontal" >
+	<ImageButton
+		    android:id="@+id/ibColorSwatch"
+		    android:layout_alignParentRight="true"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:paddingTop="40dp"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/ic_swatch" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="MiPad"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="24dp" />
+    </RelativeLayout>
+    <!-- END of CONTROL BAR -->
+    
+    <!-- START OF THE EDIT -->
+	<RelativeLayout 
+		android:layout_below="@id/rlControlPanel"
+		android:layout_width="match_parent"
+		android:layout_height="10dp"
+        android:background="@drawable/view_back"
+        android:id="@+id/relativeLayoutNote"
+	>
+        <EditText 
+		    android:id="@+id/etTitle"
+		    android:layout_width="match_parent"
+		    android:layout_marginLeft="5dp"
+		    android:singleLine="true"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:text="Test the Title"
+		    android:textColor="@android:color/black"
+		    android:paddingLeft="2dp"
+		    android:paddingRight="2dp"
+		    />
+	    <EditText
+	        android:id="@+id/etNote"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+			android:layout_below="@id/etTitle"
+		    android:background="@null"
+	        android:layout_margin="5dp"
+	        android:textColor="@android:color/black"
+	        android:layout_weight="0.03"
+	        android:ems="10"
+	        android:lineSpacingExtra="4dp"
+	        android:layout_marginBottom="10dp"
+	       	android:textSize="15dp"
+	        android:gravity="top"
+	        android:inputType="textMultiLine"
+	        android:paddingLeft="2dp"
+		    android:paddingRight="2dp"
+	         />
+
+	</RelativeLayout>
+</RelativeLayout>
