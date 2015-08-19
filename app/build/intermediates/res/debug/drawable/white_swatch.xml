@@ -3,4 +3,4 @@
     <size android:width="@dimen/swatch_sizes" android:height="@dimen/swatch_sizes"/>
 	<stroke android:width="10dp" android:color="@color/white_swatch"/>
 </shape>
-<!-- From: file:/C:/Users/larry.TABOFFICE/Documents/GitHub/MiPad/app/src/main/res/drawable/white_swatch.xml -->
+<!-- From: file:/C:/Users/ladam_000/Documents/GitHub/MiPad/app/src/main/res/drawable/white_swatch.xml -->

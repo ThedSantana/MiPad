@@ -10,7 +10,7 @@
     
     
     	<!--  LIST VIEW -->      
-	    <com.miproducts.mipad.DragDropSwipeButtonRemoveListView
+	    <mipad.miproducts.com.mipad.DragDropSwipeButtonRemoveListView
 	            android:id="@+id/lvMain"
 	            android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"
@@ -78,4 +78,4 @@
 	
 </FrameLayout>
 
-<!-- From: file:/C:/Users/larry.TABOFFICE/Documents/GitHub/MiPad/app/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/C:/Users/ladam_000/Documents/GitHub/MiPad/app/src/main/res/layout/activity_main.xml -->

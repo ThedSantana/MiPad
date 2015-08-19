@@ -4,4 +4,4 @@
 	<item android:state_pressed="true" android:drawable="@drawable/orange_swatch_filled"></item>
 	<item android:drawable="@drawable/orange_swatch" ></item>
 </selector>
-<!-- From: file:/C:/Users/larry.TABOFFICE/Documents/GitHub/MiPad/app/src/main/res/drawable/swatch_orange.xml -->
+<!-- From: file:/C:/Users/ladam_000/Documents/GitHub/MiPad/app/src/main/res/drawable/swatch_orange.xml -->
